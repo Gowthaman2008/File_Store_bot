@@ -14,9 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("Contact Creator ⚡", url="https://t.me/Gowthaman2008")
-                    ],[
+                   [            
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
                     ]
                 ]
